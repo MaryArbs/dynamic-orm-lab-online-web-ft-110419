@@ -8,7 +8,7 @@ class Student < InteractiveRecord
     attr_accessor col_name.to_sym
   end
 
-  def initialize(options={})
+  def initialize(options={}) #creates a new student with attributes
   options.each do |property, value|
     self.send("#{property}=", value)
   end
