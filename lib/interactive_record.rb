@@ -1,5 +1,5 @@
 require_relative "../config/environment.rb"
-require 'active_support/inflector' #alloes pluralize
+require 'active_support/inflector' #allows pluralize
 
 class InteractiveRecord
 
